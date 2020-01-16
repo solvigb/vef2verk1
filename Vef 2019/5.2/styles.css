@@ -1,0 +1,114 @@
+body{
+	margin: auto;
+	background: #254CCC;
+}
+/* Miðja texta */
+h1{
+	text-align: center;
+}
+/* Miðja texta og setja font  */
+h3{
+	text-align: center;
+	font-family: 'Play', sans-serif;
+}
+/* Header */
+header{
+	max-width: 60em;
+	margin:auto;
+}
+/* Header H1 */
+header h1{
+	margin-top: 60px;
+	padding:40px;
+	font-family: 'Germania One', cursive;
+	text-align: center;
+}
+/* Stílar fyrir tengla á önnur verkefni */
+header nav{ 
+	background-color: #7376CC;
+	border-radius: 5%;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+/* Background color fyrir tenglana */
+section nav{
+	background-color: #254CCC;
+	text-align: center;
+	border-radius: 10px;
+}
+/* Stíll tenglana */
+section nav a{
+	color: #FFEF56;
+	text-decoration:none;
+	display: inline-block;
+	padding:10px;
+	border-left: solid #FFEF56 1px;
+	margin-left:-5px;
+}
+/* Border fyrir seinasta tengilin */
+section nav a:last-child{
+	border-right: solid #FFEF56 1px;
+}
+section div{
+	max-width: 60em;
+	margin:auto;
+	font-family: 'Oxygen', sans-serif;
+}
+/* Blockquote transparent background */
+blockquote{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:15px;
+	border-radius: 10px;
+	text-align: center;
+}
+/* Gradient */
+.gradient{
+	background-image: radial-gradient(red, yellow, green);
+	padding: 20px; 
+}
+/* Fixed position */
+.efst{
+	display: block;
+	background-image: radial-gradient(white, purple, blue);
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	color: black;
+	text-align: center;
+	text-decoration:none;
+	line-height: 80px;
+	position: fixed;
+	right: 50px;
+	bottom: 100px;
+}
+/* Flexbox */
+.row{
+	display: flex;
+	flex-flow: row;
+	flex: 1;
+	text-align: center;
+	line-height: 80px;
+}
+/* Miðja flexbox */
+.box{
+	height: 6em;
+	font-size: 1.3em;
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Clearfix */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}

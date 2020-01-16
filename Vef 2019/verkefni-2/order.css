@@ -1,0 +1,73 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+}
+
+h1
+{
+	border:2px green solid;
+	margin:50px;
+}
+.box1
+{
+	color:red;
+	border:2px green solid;
+}
+.box2
+{
+	color:blue;
+	border:5px blue dashed;
+	padding:25px;
+}
+
+.divstyle
+{
+	border:5px red solid;
+	margin:50px;
+
+}
+
+.blokk li {
+	border: 2px dashed green;
+	padding: 1em;
+	margin: .5em;
+}
+
+.inline li {
+	display:inline;
+	border: 3px dashed blue;
+	color: red;
+	padding: 1em;
+	margin: 1em;
+}
+
+.inlineBlokk li {
+	display: inline-block;
+	border: 3px dashed red;
+	color: blue;
+	padding:1em;
+	margin: 4em;
